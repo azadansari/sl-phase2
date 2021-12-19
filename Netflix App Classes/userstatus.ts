@@ -1,6 +1,6 @@
+import { BaseModel } from "./basemodel";
 
 
-export class CurrentStatus{
-    id: number;
-    isActive: string;
+export class CurrentStatus extends BaseModel{
+    isActive: boolean;
 }

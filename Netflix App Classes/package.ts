@@ -1,7 +1,7 @@
+import { BaseModel } from "./basemodel";
 
 
-export class UserPackage{
-    id: number;
+export class UserPackage extends BaseModel{
     name: string;
     validity: number;
 }
