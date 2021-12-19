@@ -1,4 +1,4 @@
-
-export class IDeveloper{
-    
+export interface IDeveloper{
+    printProjectName(): void;
+    invite();
 }

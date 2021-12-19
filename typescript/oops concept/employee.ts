@@ -14,5 +14,5 @@ export class Employee{
     }
 }
 
-// var emp = new Employee("john", "IT", 1);
-// emp.print();
+var emp = new Employee("john", "IT", 1);
+emp.print();
