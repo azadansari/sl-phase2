@@ -1,4 +1,4 @@
-import { MonthlyPackage } from "./package";
+import { UserPackage } from "./package";
 import { UserProfile } from "./profile";
 import { CurrentStatus } from "./userstatus";
 
@@ -6,6 +6,6 @@ export class User{
     id: number;
     name: string;
     profile: UserProfile;
-    package: MonthlyPackage;
+    package: UserPackage;
     userstatus: CurrentStatus;
 }
